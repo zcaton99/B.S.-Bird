@@ -15,6 +15,14 @@
 		0B58DC1E209A05E700DA1930 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B58DC1C209A05E700DA1930 /* Main.storyboard */; };
 		0B58DC20209A05E800DA1930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B58DC1F209A05E800DA1930 /* Assets.xcassets */; };
 		0B58DC23209A05E800DA1930 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B58DC21209A05E800DA1930 /* LaunchScreen.storyboard */; };
+		0B58DC2F209A061700DA1930 /* pipe1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B58DC2A209A061600DA1930 /* pipe1.png */; };
+		0B58DC30209A061700DA1930 /* pipe2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B58DC2B209A061600DA1930 /* pipe2.png */; };
+		0B58DC31209A061700DA1930 /* flappy1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B58DC2C209A061600DA1930 /* flappy1.png */; };
+		0B58DC32209A061700DA1930 /* flappy2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B58DC2D209A061600DA1930 /* flappy2.png */; };
+		0B58DC33209A061700DA1930 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B58DC2E209A061700DA1930 /* bg.png */; };
+		0B67E3C1209B1625003A72F7 /* PolackBird2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B67E3BE209B1625003A72F7 /* PolackBird2.png */; };
+		0B67E3C2209B1625003A72F7 /* bg1.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 0B67E3BF209B1625003A72F7 /* bg1.bmp */; };
+		0B67E3C3209B1625003A72F7 /* PolackBird1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B67E3C0209B1625003A72F7 /* PolackBird1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +36,14 @@
 		0B58DC1F209A05E800DA1930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B58DC22209A05E800DA1930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B58DC24209A05E800DA1930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B58DC2A209A061600DA1930 /* pipe1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pipe1.png; sourceTree = "<group>"; };
+		0B58DC2B209A061600DA1930 /* pipe2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pipe2.png; sourceTree = "<group>"; };
+		0B58DC2C209A061600DA1930 /* flappy1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flappy1.png; sourceTree = "<group>"; };
+		0B58DC2D209A061600DA1930 /* flappy2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flappy2.png; sourceTree = "<group>"; };
+		0B58DC2E209A061700DA1930 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		0B67E3BE209B1625003A72F7 /* PolackBird2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PolackBird2.png; sourceTree = "<group>"; };
+		0B67E3BF209B1625003A72F7 /* bg1.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = bg1.bmp; sourceTree = "<group>"; };
+		0B67E3C0209B1625003A72F7 /* PolackBird1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PolackBird1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +81,14 @@
 				0B58DC16209A05E700DA1930 /* Actions.sks */,
 				0B58DC18209A05E700DA1930 /* GameScene.swift */,
 				0B58DC1A209A05E700DA1930 /* GameViewController.swift */,
+				0B58DC2E209A061700DA1930 /* bg.png */,
+				0B58DC2C209A061600DA1930 /* flappy1.png */,
+				0B58DC2D209A061600DA1930 /* flappy2.png */,
+				0B58DC2A209A061600DA1930 /* pipe1.png */,
+				0B67E3C0209B1625003A72F7 /* PolackBird1.png */,
+				0B67E3BE209B1625003A72F7 /* PolackBird2.png */,
+				0B67E3BF209B1625003A72F7 /* bg1.bmp */,
+				0B58DC2B209A061600DA1930 /* pipe2.png */,
 				0B58DC1C209A05E700DA1930 /* Main.storyboard */,
 				0B58DC1F209A05E800DA1930 /* Assets.xcassets */,
 				0B58DC21209A05E800DA1930 /* LaunchScreen.storyboard */,
@@ -131,11 +155,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B58DC33209A061700DA1930 /* bg.png in Resources */,
 				0B58DC1E209A05E700DA1930 /* Main.storyboard in Resources */,
+				0B67E3C1209B1625003A72F7 /* PolackBird2.png in Resources */,
 				0B58DC15209A05E700DA1930 /* GameScene.sks in Resources */,
+				0B58DC30209A061700DA1930 /* pipe2.png in Resources */,
+				0B58DC31209A061700DA1930 /* flappy1.png in Resources */,
 				0B58DC20209A05E800DA1930 /* Assets.xcassets in Resources */,
 				0B58DC23209A05E800DA1930 /* LaunchScreen.storyboard in Resources */,
 				0B58DC17209A05E700DA1930 /* Actions.sks in Resources */,
+				0B58DC2F209A061700DA1930 /* pipe1.png in Resources */,
+				0B67E3C2209B1625003A72F7 /* bg1.bmp in Resources */,
+				0B58DC32209A061700DA1930 /* flappy2.png in Resources */,
+				0B67E3C3209B1625003A72F7 /* PolackBird1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
